@@ -62,7 +62,7 @@ And maths for the second one: `11 + 55*ceil(16*25/32)*4 + 11 + 59*ceil(13*27/32)
 
 ![Fuck yeah.](http://i3.kym-cdn.com/photos/images/newsfeed/000/120/220/85f.jpg)
 
-You'll have to store in your code, somehow, the position of each sprite in the sheet (origin + size: it's a GRect). Either use `#define` macros, which will be replaced during compilation, and use no memory (like this: `#define SPRITE_POS_DIGIT0_0 GRect(0,0,27,59)` ), or constants, but then I don't know if they use memory (8 bytes per each), or not.
+You'll have to store in your code, somehow, the position of each sprite in the sheet (origin + size: it's a GRect). Either use `#define` macros, which will be replaced during compilation, and use no memory([erratum: hmm, not exactly how it works...](http://www.reddit.com/r/pebbledevelopers/comments/2uds2z/question_pebble_memory_is_it_cheaper_to_use/cob2t0k)) (like this: `#define SPRITE_POS_DIGIT0_0 GRect(0,0,27,59)` ), or constants, but then I don't know if they use memory (8 bytes per each), or not.
 
 Once you get to that point, you'll only need to use the function [`gbitmap_create_as_sub_bitmap()`](http://developer.getpebble.com/docs/c/group___graphics_types.html#ga5d86515990747e47a76c0a16ed6b2850) to pick sprites on your sheet. `GBitmap* my_sprite = gbitmap_create_as_sub_bitmap(spritesheet, SPRITE_POS_DIGIT0_0);`
 "No deep-copying occurs", which means you're just going to use 11+ more bytes each time you need a sprite.
