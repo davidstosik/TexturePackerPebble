@@ -62,7 +62,7 @@ And maths for the second one: `11 + 55*ceil(16*25/32)*4 + 11 + 59*ceil(13*27/32)
 
 ![Fuck yeah.](http://i3.kym-cdn.com/photos/images/newsfeed/000/120/220/85f.jpg)
 
-You'll have to store in your code, somehow, the position of each sprite in the sheet (origin + size: it's a GRect). Either use `#define` macros, ~~which will be replaced during compilation, and use no memory~~ (like this:
+You'll have to store in your code, somehow, the position of each sprite in the sheet (origin + size: it's a GRect). Either use `#define` macros, which will be replaced during compilation, ~~and use no memory~~ (like this:
 ```c
 #define SPRITE_POS_DIGIT0_0 GRect(0,0,27,59)
 ```
