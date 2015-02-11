@@ -1,13 +1,14 @@
 // Created with TexturePacker (http://www.codeandweb.com/texturepacker)
-//{% load cleanvarname %}{% load uppercase %}{% load firstcharletter %}
+//{% load cleanvarname %}{% load uppercase %}{% load firstcharletter %}{% load pickextension %}
 // Sprite sheet: {{texture.fullName}} ({{texture.size.width}} x {{texture.size.height}})
 //
 // {{smartUpdateKey}}
 //
 // Copy the code below to resources > media in your app's appinfo.json file.
 
+{% for result in allResults %}{% for texture in result.textures %},
 {
   "file": "images/{{texture.fullName}}",
-  "name": "SPRITE",
-  "type": "png"
-}
+  "name": "{{texture.trimmedName|cleanvarname|uppercase}}",
+  "type": "{{texture.fullName|pickextension}}"
+}{% endfor %}{% endfor %}

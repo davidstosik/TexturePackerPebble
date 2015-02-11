@@ -9,21 +9,11 @@
             <name>header</name>
             <displayName>Header file (.h)</displayName>
             <fileExtension>h</fileExtension>
-            <description>The header file that contains the spritesheet.</description>
-            <template>header.h</template>
+            <description>The sprite sheet's header file.</description>
+            <template>spritesheet.h</template>
             <optional>false</optional>
             <hasSeparateAutoSDFiles>first</hasSeparateAutoSDFiles>
-            <hasSeparateMultiPackFiles>true</hasSeparateMultiPackFiles>
-        </file>
-        <file>
-            <name>source</name>
-            <displayName>Source file (.c)</displayName>
-            <fileExtension>c</fileExtension>
-            <description>The source file that contains the spritesheet.</description>
-            <template>source.c</template>
-            <optional>false</optional>
-            <hasSeparateAutoSDFiles>first</hasSeparateAutoSDFiles>
-            <hasSeparateMultiPackFiles>true</hasSeparateMultiPackFiles>
+            <hasSeparateMultiPackFiles>false</hasSeparateMultiPackFiles>
         </file>
         <file>
             <name>appinfo</name>
@@ -33,7 +23,7 @@
             <template>appinfo.json</template>
             <optional>false</optional>
             <hasSeparateAutoSDFiles>first</hasSeparateAutoSDFiles>
-            <hasSeparateMultiPackFiles>true</hasSeparateMultiPackFiles>
+            <hasSeparateMultiPackFiles>false</hasSeparateMultiPackFiles>
         </file>
     </files>
     <supportsTrimming>false</supportsTrimming>
