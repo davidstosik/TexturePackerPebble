@@ -1,0 +1,13 @@
+// Created with TexturePacker (http://www.codeandweb.com/texturepacker)
+//{% load cleanvarname %}{% load uppercase %}{% load firstcharletter %}
+// Sprite sheet: {{texture.fullName}} ({{texture.size.width}} x {{texture.size.height}})
+//
+// {{smartUpdateKey}}
+//
+// Copy the code below to resources > media in your app's appinfo.json file.
+
+{
+  "file": "images/{{texture.fullName}}",
+  "name": "SPRITE",
+  "type": "png"
+}

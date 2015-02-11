@@ -25,6 +25,16 @@
             <hasSeparateAutoSDFiles>first</hasSeparateAutoSDFiles>
             <hasSeparateMultiPackFiles>true</hasSeparateMultiPackFiles>
         </file>
+        <file>
+            <name>appinfo</name>
+            <displayName>Code to add to appinfo.json</displayName>
+            <fileExtension>json</fileExtension>
+            <description>The piece of code to add to your appinfo.json to declare the sprite sheet resource.</description>
+            <template>appinfo.json</template>
+            <optional>false</optional>
+            <hasSeparateAutoSDFiles>first</hasSeparateAutoSDFiles>
+            <hasSeparateMultiPackFiles>true</hasSeparateMultiPackFiles>
+        </file>
     </files>
     <supportsTrimming>false</supportsTrimming>
     <supportsRotation>false</supportsRotation>

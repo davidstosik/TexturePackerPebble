@@ -1,5 +1,5 @@
 // Created with TexturePacker (http://www.codeandweb.com/texturepacker)
-//{% load cleanvarname %}{% load uppercase %}{% load firstcharletter %}
+//{% load cleanvarname %}{% load uppercase %}{% load firstcharletter %}{% load nopath %}
 // Sprite sheet: {{texture.fullName}} ({{texture.size.width}} x {{texture.size.height}})
 //
 // {{smartUpdateKey}}

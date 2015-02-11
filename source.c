@@ -7,7 +7,7 @@
 #include <pebble.h>
 #include "{{texture.trimmedName}}.h"
 
-static const GRect* sprite_rects = {
+static const GRect sprite_rects[] = {
   { {0, 0}, {0, 0} },{% for sprite in allSprites %}
   { { {{sprite.frameRect.x}} ,  {{sprite.frameRect.y}} }, { {{sprite.frameRect.width}}, {{sprite.frameRect.height}} } },{% endfor %}
 };
