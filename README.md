@@ -5,7 +5,7 @@ Feel free to read the explanation on sprite sheets below.
 
 ## Using a sprite sheet on Pebble SDK
 
-I moved this story to my blog: [Using a sprite sheet on Pebble](http://dstosik.github.io/pebble/2015/02/11/using_sprite_sheet_pebble_sdk/). Feel free to take a look if you want to know how I came up writing this quick project, and what kind of gains you can expect from making a sprite sheet for your Pebble application.
+I moved this story to my blog: [Using a sprite sheet on Pebble](http://dstosik.github.io/pebble/2015/02/10/using_sprite_sheet_pebble_sdk/). Feel free to take a look if you want to know how I came up writing this quick project, and what kind of gains you can expect from making a sprite sheet for your Pebble application.
 
 ## Support / Issues
 
