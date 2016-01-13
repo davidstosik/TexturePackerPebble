@@ -5,7 +5,7 @@ Feel free to read the explanation on sprite sheets below.
 
 ## Using a sprite sheet on Pebble SDK
 
-I moved this story to my blog: [Using a sprite sheet on Pebble](http://dstosik.github.io/pebble/2015/02/10/using_sprite_sheet_pebble_sdk/). Feel free to take a look if you want to know how I came up writing this quick project, and what kind of gains you can expect from making a sprite sheet for your Pebble application.
+I moved this story to my blog: [Using a sprite sheet on Pebble](http://davidstosik.github.io/pebble/2015/02/10/using_sprite_sheet_pebble_sdk/). Feel free to take a look if you want to know how I came up writing this quick project, and what kind of gains you can expect from making a sprite sheet for your Pebble application.
 
 ## Support / Issues
 
@@ -23,7 +23,7 @@ Feel free to open an issue here, or to contact [me](http://forums.getpebble.com/
 3. Clone this repository inside the folder.
 
  ```sh
- git clone git@github.com:dstosik/TexturePackerPebble.git ~/TexturePacker/exporters/pebble
+ git clone git@github.com:davidstosik/TexturePackerPebble.git ~/TexturePacker/exporters/pebble
  ```
  
 4. Start TexturePacker.
